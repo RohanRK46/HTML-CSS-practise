@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+}
+.navbar{
+  padding: 15px 0;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  justify-content:center ;
+  gap: 18px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 10px;
+  width: 60px;
+  font-size: 18px;
+}
+
+.navbar a:hover{
+  color: aqua;
+}
+
+.navh1{
+  background-image: url(image1.jpeg);
+  opacity: 100%;
+}

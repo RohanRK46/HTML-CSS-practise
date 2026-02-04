@@ -1,0 +1,41 @@
+ /* universal selector mostly used to remove browser auto margin given by "*"  */
+
+*{
+margin: 0;
+padding: 0;
+}
+
+
+/* Element selectors are called with using the name of element and it will change all the element of same name */
+
+h1{
+  background-color: black;
+}
+
+h2{
+  background-color: aqua;
+}
+
+/* class Selectors are called with "." before the name of class */
+
+.red {
+  background-color: red;
+}
+
+/* ID Selectors are called with " # " before the id name */
+
+#first {
+  background-color: purple;
+}
+
+/* Everything can be grouped together id , class , element.  We can group selectors by separating them by “ , ”  */
+
+.red,.blue{
+  background-color: brown;
+}
+
+/* element class selector let say there are multiple p with class red so we can use p.red to apply css in all at once or one by one if diffrent name */
+
+p.p1 {
+  background-color: pink;
+}

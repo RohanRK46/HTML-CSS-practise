@@ -1,0 +1,20 @@
+/* css on image */
+*{
+  margin: 0;
+  padding: 0;
+}
+.image{
+  height: 1000px;
+  width: 500px;
+  background-image: url(image3.jpeg);
+  background-repeat: no-repeat;
+  background-size: 450px 300px ;
+  background-position: 50% 10%;
+  color: white;
+  background-attachment:fixed;
+  border: 4px solid black;
+
+/* we can do all the image property in single line as well */
+
+/* background: rgb(126, 202, 221) url(image3.jpeg) no-repeat fixed 5% 3% / 400px 200px; */
+}
