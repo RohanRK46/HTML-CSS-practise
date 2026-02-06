@@ -1,0 +1,53 @@
+/* text-allign property alligns text inside div it doesnot change div, it only changes 
+the location of text */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.box1{
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border: 3px solid blue;
+  display: inline-block;
+  text-align: center;
+}
+.box2{
+  background-color: pink;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border: 3px solid blue;
+  display: inline-block;
+  text-align:left;
+}
+.box3{
+  background-color: aqua;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border: 3px solid blue;
+  display: inline-block;
+  text-align:right;
+}
+.box4{
+  background-color: gray;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border: 3px solid blue;
+  display: inline-block;
+  text-align:start;
+}
+.box5{
+  background-color: green;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border: 3px solid blue;
+  display: inline-block;
+  text-align:justify;
+  visibility: hidden;
+}

@@ -1,0 +1,47 @@
+/* 19 - 22 is default line height but not compulsarly becasuse of font size but they do have some default line height */
+
+.box1{
+  background-color: red;
+  color: aliceblue;
+  height: 300px;
+  width: 300px;
+
+/* capatalise covert all the text first alphabet to uppercase */
+  text-transform: capitalize; 
+
+}
+.box2{
+  background-color: black;
+  color: aliceblue;
+  height:300px;
+  width:300px;
+
+/* everting in uppercase */
+  text-transform: uppercase;
+
+ /* used to customise gaps */
+  line-height: 20px;
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* -------------------applying font property in here --------------------------- */
+
+.box3{
+  background-color: blue;
+  color: aliceblue;
+  height:300px;
+  width:300px;
+
+/* everything in lowercase */
+  text-transform: lowercase;
+
+  line-height: 30px;
+
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}

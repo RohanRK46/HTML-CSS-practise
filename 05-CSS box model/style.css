@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* margin is the outter space betweeen 2 div */
+/* padding is the gap between content and border */
+/* border is the outline of div */
+
+.box1 , .box2 , .box3 , .box4{
+  background-color: red;
+  height: 200px;
+  width: 200px; 
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid black;
+}
+

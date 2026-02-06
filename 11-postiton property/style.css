@@ -1,0 +1,66 @@
+/* Positioning is controlled using:
+
+position: relative / absolute / fixed / sticky
+
+then moved using: top, bottom, left, right
+
+and overlap is controlled using: z-index
+z-index decides which element appears on top when elements overlap.
+Higher z-index = shown above (only works on positioned elements).
+
+top means distance from the top edge of its reference area
+
+reference area depends on the position type:
+
+📌 If position: fixed
+ top,left,bottom,right is from browser screen (viewport)
+
+📌 If position: absolute
+top,left,bottom,right is from the nearest positioned parent (parent with relative/absolute/fixed/sticky)
+
+📌 If position: relative
+it moves from its own original place */
+
+.container{
+  position: relative;
+  left: 20vw;
+  top: 20vh;
+
+  justify-content: center;
+  height: 60vh;
+  width: 60vw;
+  border: 3px solid black;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+}
+
+.box1{background-color: red;}
+.box2{background-color: blue;}
+.box3{background-color: purple;}
+
+.box1{
+  position: fixed;
+
+  /* these postion are from viewport entire screen and not relevent to its parent */
+  top:0;
+  left: 50px;;
+}
+
+ /* relative is moved from element's original position */
+ /* it can also move outside of the box */
+
+.box2{
+  position: relative;
+  top: 15cm;
+  left: 10cm;
+}
+
+/* element is moved with respect of its parent "continer" */
+.box3{
+  position:absolute;
+  top: 5cm;
+  left: 5cm;
+}
